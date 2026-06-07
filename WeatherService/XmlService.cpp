@@ -4,8 +4,7 @@
 
 #include "XmlService.h"
 #include <stdexcept>
-#include <pugixml.hpp>
-
+#include "pugixml.hpp"
 using namespace pugi;
 
 Weather XmlService::getWeather(const std::string& s) {
